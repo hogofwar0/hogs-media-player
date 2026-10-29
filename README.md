@@ -2,6 +2,11 @@
 
 # Hogs media player
 
+<!-- the button downloads the ZIP directly; update the version in the link with each new release -->
+<p align="center">
+  <a href="https://github.com/hogofwar0/hogs-media-player/releases/download/v1.45/Hogs-media-player-V1.45-win64.zip"><img src="https://img.shields.io/badge/DOWNLOAD-Hogs%20media%20player%20V1.45%20%E2%80%94%20Windows%2C%20free-2ea44f?style=for-the-badge" height="44" alt="Download Hogs media player V1.45 for Windows (free)"></a>
+</p>
+
 A fast, standalone media player for Windows 10/11 (64-bit), written in C, with:
 
 - **Plays practically everything**: FFmpeg inside, GPU (D3D11VA) decoding, 4K/6K and 120 fps video,
