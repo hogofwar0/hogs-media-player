@@ -1,0 +1,20 @@
+# build outputs and bundled runtime binaries (they ship in the release ZIP, not the repo)
+*.exe
+*.dll
+*.o
+*.zip
+dist/
+
+# third-party SDKs and large data (see README.md "Building")
+deps/
+vulkan/models/
+presets/
+
+# personal data the player writes next to itself (portable mode)
+hogs_session.m3u8
+hogs_excludes.txt
+hogs_search.txt
+hogs_theme.txt
+hogs_enh_*.status.json
+enhcache/
+*.tmp
