@@ -1,0 +1,81 @@
+THIRD-PARTY COMPONENTS BUNDLED WITH HOGS MEDIA PLAYER
+======================================================
+
+Hogs media player itself is licensed under the GNU General Public License,
+version 3 (LICENSE.txt). Its complete source code is published at
+https://github.com/hogofwar0/hogs-media-player . The components below are
+included with their own licences.
+
+
+FFmpeg 7.1  (avcodec-61, avformat-61, avfilter-10, avutil-59, swscale-8,
+             swresample-5, postproc-58 .dll)
+-----------------------------------------------------------------------
+Licence: GNU General Public License v3 (this build is configured with
+--enable-gpl --enable-version3 and includes GPL libraries such as libx265).
+Build: BtbN FFmpeg-Builds, "ffmpeg-n7.1-win64-gpl-shared",
+       version n7.1.5-1-g7d0e842004-20260625.
+Corresponding source:
+  FFmpeg source:  https://git.ffmpeg.org/ffmpeg.git  (tag/branch release/7.1,
+                  commit 7d0e842004)  - also https://github.com/FFmpeg/FFmpeg
+  Build scripts and the exact versions of every bundled library:
+                  https://github.com/BtbN/FFmpeg-Builds
+If you cannot obtain the source from those locations, open an issue at
+https://github.com/hogofwar0/hogs-media-player/issues and a copy will be
+provided, as required by the GPL.
+https://ffmpeg.org/legal.html
+
+
+SDL2 2.32.10  (SDL2.dll)
+------------------------
+Copyright (C) 1997-2025 Sam Lantinga. zlib licence:
+This software is provided 'as-is', without any express or implied warranty.
+In no event will the authors be held liable for any damages arising from the
+use of this software. Permission is granted to anyone to use this software
+for any purpose, including commercial applications, and to alter it and
+redistribute it freely, subject to the following restrictions:
+ 1. The origin of this software must not be misrepresented; you must not
+    claim that you wrote the original software. If you use this software in a
+    product, an acknowledgment in the product documentation would be
+    appreciated but is not required.
+ 2. Altered source versions must be plainly marked as such, and must not be
+    misrepresented as being the original software.
+ 3. This notice may not be removed or altered from any source distribution.
+https://www.libsdl.org/
+
+
+ncnn  (statically linked into hogs_enhance.exe)
+-----------------------------------------------
+Copyright (C) THL A29 Limited, a Tencent company. BSD 3-Clause licence.
+https://github.com/Tencent/ncnn
+Includes glslang (Khronos Group; BSD-3-Clause / Apache-2.0 / MIT parts),
+https://github.com/KhronosGroup/glslang
+
+
+Real-ESRGAN models  (vulkan\models\realesr*.param/.bin)
+-------------------------------------------------------
+RealESRGAN_x4plus, RealESRGAN_x2plus, realesr-general-x4v3,
+realesr-animevideov3. Copyright (c) 2021 Xintao Wang. BSD 3-Clause licence.
+https://github.com/xinntao/Real-ESRGAN
+
+
+RIFE frame-interpolation model  (vulkan\models\flownet.param/.bin)
+-------------------------------------------------------------------
+RIFE by hzwer (MIT licence), https://github.com/hzwer/Practical-RIFE ;
+ncnn port and Warp layer from rife-ncnn-vulkan by nihui (MIT licence),
+https://github.com/nihui/rife-ncnn-vulkan
+
+
+stb_truetype / stb_easy_font  (compiled into hogofwar.exe)
+----------------------------------------------------------
+Sean Barrett. Public domain (or MIT, at your option).
+https://github.com/nothings/stb
+
+
+MilkDrop presets  (presets\*.milk)
+----------------------------------
+Visualizer presets created by their respective authors (names are in the file
+names), collected from the community "MilkDrop Preset MegaPack" and the
+original MilkDrop presets published by the projectM project
+(https://github.com/projectM-visualizer/presets-milkdrop-original).
+MilkDrop itself was released by Nullsoft under a BSD licence.
+They are redistributed unmodified for use with this player.
